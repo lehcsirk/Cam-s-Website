@@ -3,6 +3,11 @@ body
 	background: #4b3832;
 	text-align: center;	
 }
+img
+{
+	max-height: 100px;
+	width: auto;
+}
 #main
 {
 	width: 1000px;
@@ -12,7 +17,18 @@ body
 	border: solid 2px #fff4e6;
 	padding: 10px;
 }
+#menuBar
+{
+	text-align: center;
+}
 h1
+{
+	text-align: center;
+	font-family: "Times New Roman";
+	font: 24pt;
+	color: #3c2f2f;
+}
+h2
 {
 	text-align: center;
 	font-family: "Times New Roman";
@@ -41,4 +57,32 @@ a
 	font-size: 12pt;
 	text-align: left;
 	color: #3c2f2f;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration: underline;
+}
+div.thirds
+{
+	padding-bottom: 50px;
+}
+div.one-third
+{
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+div.one-third-last
+{
+	margin: 0;
+}
+@media screen and (max-width: 500px)
+{
+	div.mobile-collapse
+	{
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
 }
